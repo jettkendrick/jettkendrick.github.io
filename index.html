@@ -11,6 +11,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+.mySlides {display:none;}
+</style>
 	</head>
 	<body class="is-preload">
 
@@ -32,7 +35,7 @@
 							<ul>
 								<li><a href="#intro">Intro</a></li>
 								<li><a href="#me">about</a></li>
-								<li><a href="#work">Work</a></li>
+								<li><a href="#work">Projects</a></li>
 								<li><a href="#girls">My girls</a></li>
 								<li><a href="#contact">Contact</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
@@ -53,27 +56,38 @@
 							</article>
 							<article id="me">
 								<h2 class="major">About</h2>
-								<div class="image main">
+								<div class="image main">								
 									<img class="mySlides" src="images/jett.png" alt="" />
 									<img class="mySlides" src="images/jettlil.png" alt="" />
 									<img class="mySlides" src="images/fire.png" alt="" />
 									<img class="mySlides" src="images/snow.png" alt="" />
-									<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-									<button class="w3-button w3-black w3-display-right" style="position: absolute; right: 0;" onclick="plusDivs(1)">&#10095;</button>
+									<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 0)">&#10094;</button>
+									<button class="w3-button w3-black w3-display-right" style="position: absolute; right: 0;" onclick="plusDivs(1, 0)">&#10095;</button>
 								</div>
-								<p> One thing I do have in my life though; is an amazing and beautiful 20 month old daughter.  I am a very doting father, and I'll dote on my daughter all day. No shame. I am a single father, and I have been taking care of her on my own since she was born.  It can be alot of responsibility sometimes, but I love being a dad, and she is the best thing that has ever happened to me. She is also the most important person in my life which is why she is really the driving force behind me wanting to progress even further in my professional career. That way I can support her and provide her with a quality life that she deserves, and I also possess personal expectations as a father as to what as far as her upbringing.  I spend the pretty much all of my time on either work or dev stuff, and hanging out with my little lady. That's not to say I don't occaisonally have a little time to spare to do other things as I do have some hobbies actually, and that mostly inludes playing video games. To be specific I love anything Nintendo really, and JRPGs. I am also a big sports fan; I love the NBA. I go on reddit not Instagram and I don't like avacados. It's a hot take but I think they suck. That's about it really.</p>
+								<p> One thing I do have in my life though; is an amazing and beautiful 20 month old daughter.  I am a very doting father, and I'll dote on my daughter all day. No shame. I am a single father, and I have been taking care of her on my own since she was born.  It can be alot of responsibility sometimes, but I love being a dad, and she is the best thing that has ever happened to me. She is also the most important person in my life which is why she is really the driving force behind me wanting to progress even further in my professional career. That way I can support her and provide her with a quality life that she deserves, and I also possess personal expectations as a father as to what as far as her upbringing.  I spend the pretty much all of my time on either work or dev stuff, and hanging out with my little lady.</p>
+
+								<p> That's not to say I don't occaisonally have a little time to spare to do other things as I do have some hobbies actually, and that mostly inludes playing video games. To be specific I love anything Nintendo really, and JRPGs. I am also a big sports fan; I love the NBA. I go on reddit not Instagram and I don't like avacados. It's a hot take but I think they suck. That's about it really.</p>
 							</article>
 						<!-- Work -->
 							<article id="work">
 								<h2 class="major">Work</h2>
-								<div class="image main">
-									<img class="mySlides" src="images/jettlil.png" alt="" />
-									<img class="mySlides" src="images/profile.png" alt="" />
-									<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-									<button class="w3-button w3-black w3-display-right" style="position: absolute; right: 0;" onclick="plusDivs(1)">&#10095;</button>
+								<div class="image main">									
+									<img class="projectSlides" src="images/app1.png" alt="" />
+									<img class="projectSlides" src="images/app2.png" alt="" />
+									<img class="projectSlides" src="images/app3.png" alt="" />
+									<img class="projectSlides" src="images/app4.png" alt="" />
+									<img class="projectSlides" src="images/rails.png" alt="" />
+									<img class="projectSlides" src="images/vue.png" alt="" />
+								
+									<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 1)">&#10094;</button>
+									<button class="w3-button w3-black w3-display-right" style="position: absolute; right: 0;" onclick="plusDivs(1, 1)">&#10095;</button>
 								</div>
-								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+								<p> This is an web application I personally created. It's a style focused app centered around celebreties and their outfits. The main goal of the app is to allow users to emulate the styles of their favorite celebs at affordable prices.  The inspiratoin behind this idea came from seeing LeBron james pull up to last years NBA Finals clad in a $45,000 suit that replaced the more typical pair of slacks for a pair of uhh...suit shorts. anyways, I thought to myself there has to be a affordable way for people to dress like the stars. On my app you'll find pictures of various famous people, and there outfits. When you select an outfit you are brought to a page that displays pictures of products that look simular to each individual item the celebrity is wearing.  clicking on that picture pulls up the site the item is hosted on, and the prices are affordable for us normals. that's the main feature of the application. Just because you don't possess the looks the bod or the hair; it doesn't mean you can't copy what they wear</p>
+
+								<p> The backend for my app was built using Rails along with Postgresql database containing several models and joint tables, and the frontend for this project was Vue.JS based. It aslo includes the tumblr-Api which under my original intention was meant to be used in conjunction with another Api named Thread Genius. It was a style focused image recognition Api with built in catalogues with thousands of products from places like shopstyle etc. as well as fashion blogs, allowing you to take an image of an outfit and have it pull up products that look simular. it woild have been very cool but unfortunately they were acquired recently leaving their Api unusable. So now Plan B when I get the chance is to add Apis from some fashion brands in order to pull up their catalog in app to make outfit creation even easier</p>
+
+								<p> As far as other ongoing projects, I'm currently working with some guys building a 2-D Platform game on Unity as a fun side project.  it's been alot of fun so far, and I've been working on writing the C# scripts for the enemy AI, and also things like the game physics. Hopefully we can get out a playable level out soon</p>
+
 							</article>
 
 						<!-- About -->
@@ -362,22 +376,25 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-<script type="text/javascript">var slideIndex = 1;
-showDivs(slideIndex);
+<script type="text/javascript">var slideIndex = [1, 1];
+var slideID = ["mySlides", "projectSlides"]
+showDivs(1, 0);
+showDivs(1, 1);
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
+function plusDivs(n, no) {
+  showDivs(slideIndex[no] += n, no);
 }
 
-function showDivs(n) {
+function showDivs(n, no) {
   var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
+  var x = document.getElementsByClassName(slideID[no]);
+  if (n > x.length) {slideIndex[no] = 1}
+  if (n < 1) {slideIndex[no] = x.length}
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
   }
-  x[slideIndex-1].style.display = "block";  
+  x[slideIndex[no]-1].style.display = "block";  
 }</script>
+
 	</body>
 </html>
